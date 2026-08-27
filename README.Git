@@ -36,17 +36,11 @@ This version of PSPP should work with the Gnulib commit shown below.
 Gnulib does not maintain a stable API or ABI, so it is possible that
 PSPP will not work with older or newer versions of Gnulib.
 
-commit c0184d73eb46dacdd410d1dde8a6ef70470a8ccf (HEAD -> master, origin/master, origin/HEAD)
-Author: Pádraig Brady <P@draigBrady.com>
-Date:   Tue Sep 16 17:38:57 2025 +0100
+commit 8de8e0494c5a41fba04ff913c414486a1925854f (HEAD -> master, origin/master, origin/HEAD)
+Author: Bruno Haible <bruno@clisp.org>
+Date:   Thu Aug 27 10:25:41 2026 +0200
 
-    cpu-supports: remove assert dependency
-
-    Avoid LGPL incompatibility issues by removing assert.
-
-    * lib/cpu-supports.c (hwcaps_allowed): Replace assert()s
-    with defensive returns allowing the passed hwcap.
-    * modules/cpu-supports: Remove the dependency.
+    Fix a recent ChangeLog entry.
 
 To clone Gnulib into a directory named "gnulib" using Git, and then
 check out this particular commit, run these commands:
